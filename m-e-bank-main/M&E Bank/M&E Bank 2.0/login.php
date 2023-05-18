@@ -97,9 +97,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
+        h4 {
+	        text-align: center;
+	        color: #fece09;
+        }
     </style>
 </head>
 <body>
+        <h4>Bowie State University</h4>
+		<h4>M&E Bank</h4>
+        <div class="imgcontainer">
+				<img src="logo.png" alt="Logo" class="logo" width="500" height="400" />
+			</div>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
