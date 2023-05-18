@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="index.js"></script>
+	</head>
+
+	<body>
+		<h2>Bowie State University</h2>
+		<h2>M&E Bank</h2>
+		<!--Step 1 : Adding HTML-->
+		<form action="home.html">
+			<div class="imgcontainer">
+				<img src="logo.png" alt="Logo" class="logo" width="500" height="400" />
+			</div>
+
+			<div class="container">
+				<label><b>Username</b></label>
+				<input type="text" placeholder="Enter Username" name="uname" id="user" required />
+
+				<label><b>Password</b></label>
+				<input
+					type="password"
+					placeholder="Enter Password"
+					name="psw"
+					required
+				/>
+
+				<button type="submit">Login</button>
+				<input type="checkbox" checked="checked" /> Remember me
+			</div>
+
+			<div class="container" style="background-color: #f1f1f1">
+				<button type="button" class="cancelbtn">Cancel</button>
+				<span class="psw">Forgot <a href="#">password?</a></span>
+			</div>
+		</form>
+		<form>
+			<div class="container">
+				<label><b>Create Username</b></label>
+				<input
+					type="text"
+					placeholder="Enter Username"
+					name="uname"
+					id="newUsername"
+					required
+				/>
+
+				<label><b>Create Password</b></label>
+				<input
+					type="password"
+					placeholder="Enter Password"
+					name="psw"
+					id="newPassword"
+					required
+				/>
+
+				<button type="button" onclick="registerAccount();">
+					Create Account
+				</button>
+			</div>
+		</form>
+	</body>
+</html>
